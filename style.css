@@ -1,0 +1,23 @@
+body{
+    background-image: url(weather.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#button-addon2{
+    background-color:yellow;
+    color: black;
+    font-weight: 500;
+}
+::placeholder{
+    font-size: 20px;
+
+}
+.description{
+    width: 500px;
+    background-color: rgba(69, 70, 66, 0.205);
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 20px 20px 55px rgb(59, 58, 70);
+}

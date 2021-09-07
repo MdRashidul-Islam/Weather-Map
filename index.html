@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="input-group w-50 mx-auto mt-5 pt-5 mb-3">
+  <input id="input" type="text" class="form-control p-3" placeholder="Type location" aria-label="Recipient's username" aria-describedby="button-addon2">
+  <button onclick="searchTemp()" class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+</div>
+
+<div class="description">
+  <img  class="d-block mx-auto" id="icon" src="http://openweathermap.org/img/wn/50d@2x.png" alt="">
+<h1 id="place-name" class="fs-1 text-center text-white fw-bold">Dhaka</h1>
+<hr>
+<h2 id="temp" class="fs-1 text-center text-warning" >31.99 <span>C</span></h2>
+<hr>
+<h4 id="weather" class="fs-1 text-center" >Haze</h4>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
